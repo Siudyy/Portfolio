@@ -1,0 +1,36 @@
+body    {
+    background-color: powderblue;
+}
+
+h1   {
+    color: blue;
+}
+
+p    {
+    color: red;
+}
+
+button {
+    background-color: burlywood;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+    background-color: blueviolet;
+}
+
+.trenimg {
+    width: 300px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+}
