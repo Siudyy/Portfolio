@@ -1,5 +1,7 @@
 body    {
     background-color: powderblue;
+    padding: 0;
+    margin: 0;
 }
 
 h1   {
@@ -8,6 +10,54 @@ h1   {
 
 p    {
     color: red;
+}
+
+ul  {
+    background-color: rgb(34, 32, 43);
+    list-style-type: none;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    border-left: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.right-nav {
+    float: right;
+    display: flex;
+}
+.left-nav {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+li b {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li b:hover {
+    background-color: #111;
 }
 
 button {
@@ -33,4 +83,9 @@ button {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin: 30px;
+}
+
+.active {
+    background-color: #832366;
+    color: white;
 }
