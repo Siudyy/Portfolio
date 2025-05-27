@@ -33,6 +33,13 @@ section {
     margin-bottom: 15px;
 }
 
+.section-header h3 {
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
 .underline {
     height: 4px;
     width: 80px;
@@ -103,7 +110,7 @@ li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/api/placeholder/1600/900');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -208,6 +215,7 @@ button a {
 /* About Section */
 .about-section {
     background-color: white;
+    position: fixed;
 }
 
 .flex-container {
@@ -455,16 +463,30 @@ button a {
 /* Contact Section */
 .contact-section {
     background-color: white;
+    padding: 0px;
+    color: white;
 }
 
 .contact-container {
     display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px;
     gap: 50px;
 }
 
+.contact-content {
+    max-width: 1800px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    background-color: #2c3e50;
+    align-items: center;
+    justify-content: center;
+    width: 1800px;
+    
+}
 .contact-info {
     flex: 1;
 }
