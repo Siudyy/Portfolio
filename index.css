@@ -146,8 +146,9 @@ li a:hover {
     gap: 20px;
 }
 
-/* Buttons */
-button {
+/* Buttons  */
+.primary-button, .secondary-button, .resume-button, .submit-button, .view-more {
+    display: inline-block;
     padding: 12px 25px;
     border: none;
     border-radius: 5px;
@@ -155,6 +156,8 @@ button {
     font-size: 1rem;
     font-weight: 600;
     transition: all 0.3s ease;
+    text-decoration: none;
+    text-align: center;
 }
 
 .primary-button {
@@ -174,11 +177,6 @@ button {
 
 .secondary-button:hover {
     background-color: #3498db;
-}
-
-button a {
-    color: inherit;
-    text-decoration: none;
 }
 
 .resume-button {
@@ -254,8 +252,8 @@ button a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: #3498db;
     color: white;
@@ -461,7 +459,7 @@ button a {
 
 /* Contact Section */
 .contact-section {
-    background-color: white;
+    background-color: #f8f9fa;
     padding: 0px;
     color: white;
 }
@@ -484,8 +482,8 @@ button a {
     align-items: center;
     justify-content: center;
     width: 1800px;
-    
 }
+
 .contact-info {
     flex: 1;
 }
